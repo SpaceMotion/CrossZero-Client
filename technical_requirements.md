@@ -9,7 +9,7 @@
 
 ## Используемые технологии:
 
-React Native, Redux, Flow.
+React Native, React Navigation, Redux, Flow.
 
 ## Технические требования:
 
