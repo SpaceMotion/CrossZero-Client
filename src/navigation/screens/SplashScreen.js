@@ -1,7 +1,5 @@
 // @flow
 
-import React from 'react';
-
-export function SplashScreen(): React.ReactNode {
+export function SplashScreen(): React$Node {
   return null;
 }

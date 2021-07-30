@@ -8,7 +8,7 @@ import {SplashScreen} from './navigation/screens/SplashScreen';
 
 const Stack = createStackNavigator();
 
-export function App(): React.ReactNode {
+export function App(): React$Node {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName={NAVIGATION.ROUTES.SPLASH}>
