@@ -1,5 +1,3 @@
-// @flow
-
 import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
@@ -10,7 +8,7 @@ import {store} from './store';
 
 const Stack = createStackNavigator();
 
-export function App(): React$Node {
+export function App() {
   return (
     <NavigationContainer>
       <Provider store={store}>

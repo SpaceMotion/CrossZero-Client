@@ -637,7 +637,7 @@
     "@babel/helper-create-regexp-features-plugin" "^7.14.5"
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/preset-flow@^7.0.0", "@babel/preset-flow@^7.14.5":
+"@babel/preset-flow@^7.0.0":
   version "7.14.5"
   resolved "https://registry.yarnpkg.com/@babel/preset-flow/-/preset-flow-7.14.5.tgz#a1810b0780c8b48ab0bece8e7ab8d0d37712751c"
   integrity sha512-pP5QEb4qRUSVGzzKx9xqRuHUrM/jEzMqdrZpdMA+oUCRgd5zM1qGr5y5+ZgAL/1tVv1H0dyk5t4SKJntqyiVtg==
@@ -1186,6 +1186,11 @@
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
 
+"@tsconfig/react-native@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@tsconfig/react-native/-/react-native-1.0.3.tgz#2d70169c41271aae12c2d714a79fedac13ed6ac9"
+  integrity sha512-v3Nu55tpE+TIanWzkP1usqZQMwZtqM2EyizNiQJnJxbvullkrhVjn1RIaSxzygoL3EI9nqiraTGoQBwDPyr7iQ==
+
 "@types/babel__core@^7.0.0", "@types/babel__core@^7.1.7":
   version "7.1.15"
   resolved "https://registry.yarnpkg.com/@types/babel__core/-/babel__core-7.1.15.tgz#2ccfb1ad55a02c83f8e0ad327cbc332f55eb1024"
@@ -1287,6 +1292,13 @@
   version "15.7.4"
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.4.tgz#fcf7205c25dff795ee79af1e30da2c9790808f11"
   integrity sha512-rZ5drC/jWjrArrS8BR6SIr4cWpW09RNTYt9AMZo3Jwwif+iacXAqgVjm0B0Bv/S1jhDXKHqRVNCbACkJ89RAnQ==
+
+"@types/react-native@^0.64.13":
+  version "0.64.13"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.64.13.tgz#9e57b85631380b75979a09f5a97e1884299e8d5a"
+  integrity sha512-QSOBN6m3TKBPFAcDhuFItDQtw1Fo1/FKDTHGeyeTwBXd3bu0V9s+oHEhntHN7PUK5dAOYFWsnO0wynWwS/KRxQ==
+  dependencies:
+    "@types/react" "*"
 
 "@types/react-redux@^7.1.16":
   version "7.1.18"
@@ -2954,11 +2966,6 @@ flatted@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.2.tgz#4575b21e2bcee7434aa9be662f4b7b5f9c2b5138"
   integrity sha512-r5wGx7YeOwNWNlCA0wQ86zKyDLMQr+/RB8xy74M4hTphfmjlijTSSXGuH8rnvKZnfT9i+75zmd8jcKdMR4O6jA==
-
-flow-bin@^0.155.0:
-  version "0.155.0"
-  resolved "https://registry.yarnpkg.com/flow-bin/-/flow-bin-0.155.0.tgz#db2a9712b13f66e9318e167a89f6f28bcb1c49dc"
-  integrity sha512-OTMVh3KJDNYkmLT/txrpgpJK5FCHxfbxSK7IM2V4YQx+BQibEkrJEufSwB6cyKieFKRcO3F46NqgfNgLw+RWUA==
 
 flow-parser@0.*:
   version "0.155.0"
@@ -6375,6 +6382,11 @@ typedarray-to-buffer@^3.1.5:
   integrity sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
   dependencies:
     is-typedarray "^1.0.0"
+
+typescript@^4.4.2:
+  version "4.4.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.4.2.tgz#6d618640d430e3569a1dfb44f7d7e600ced3ee86"
+  integrity sha512-gzP+t5W4hdy4c+68bfcv0t400HVJMMd2+H9B7gae1nQlBzCqvrXX+6GL/b3GAgyTH966pzrZ70/fRjwAtZksSQ==
 
 ua-parser-js@^0.7.18:
   version "0.7.28"
